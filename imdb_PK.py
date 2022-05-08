@@ -2,7 +2,7 @@ import pandas
 import requests
 from bs4 import BeautifulSoup
 from random import randint
-import matplotlib.pyplot as plt
+
 import time
 import spacy
 import streamlit as st
