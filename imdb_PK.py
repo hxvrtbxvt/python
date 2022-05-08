@@ -85,5 +85,5 @@ import plotly.express as px
 fig = px.pie(pll,values=quanity,names=numbers,width=600, height=600)
 fig.show()
 
-st.plotly_chart(fig)
+st.pyplot(fig)
 
