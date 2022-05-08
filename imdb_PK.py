@@ -11,6 +11,8 @@ import streamlit as st
 
 st.title('Analiza danych z IMDB - Paulina Kowalczyk')
 
+st.markdown("Za pomocą bibliotek Requests oraz BeautifulSoup zescrapowałam dane ze strony IMDB. Całość przedstawiam w postaci tabeli z biblioteki Pandas.")
+
 movies = []
 urls = range(1,1000,100)
 
