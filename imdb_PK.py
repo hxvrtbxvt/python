@@ -77,3 +77,13 @@ for url in urls:
 
 st.dataframe(movie_df)
 
+
+pll = movie_df["Year"].value_counts()[:10]
+numbers = pll.index
+quanity = pll.values
+import plotly.express as px
+fig = px.pie(pll,values=quanity,names=numbers,width=600, height=600)
+fig.show()
+
+st.plotly_chart(fig)
+
