@@ -29,7 +29,7 @@ for url in urls:
     movie_data = soup.find_all('div', attrs = {'class': 'lister-item mode-advanced'})
    
     for i in movie_data:
-        title = i.h3.a.text
+        title = i.h3.a.text 
 
         
         year = i.find('span', class_= 'lister-item-year text-muted unbold').text
