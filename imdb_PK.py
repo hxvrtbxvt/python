@@ -6,8 +6,8 @@ from random import randint
 import time
 # import spacy
 import streamlit as st
-from collections import Counter
-import seaborn
+#from collections import Counter
+#import seaborn
 
 st.title('Analiza danych z IMDB - Paulina Kowalczyk')
 
