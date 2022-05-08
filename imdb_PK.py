@@ -75,7 +75,7 @@ for url in urls:
     columns=["Title", "Year", "Time", "Rating", "Votes", "Gross", "Genres", "Directors", "Stars", "Description"]
 )
     
- st.markdown("Przy pomocy biblioteki Plotly, stworzyłam wykres przedstawiający najczęściej występujący rok przy filmowych produkcjach top 1000. Według danych, wynika, że najlepsze filmy powstawały kolejno w 2004, 2014 itd..")   
+st.markdown("Przy pomocy biblioteki Plotly, stworzyłam wykres przedstawiający najczęściej występujący rok przy filmowych produkcjach top 1000. Według danych, wynika, że najlepsze filmy powstawały kolejno w 2004, 2014 itd..")   
 
 st.dataframe(movie_df)
 from PIL import Image
