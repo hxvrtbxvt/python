@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from random import randint
 
 import time
-import spacy
+# import spacy
 import streamlit as st
 from collections import Counter
 import seaborn
